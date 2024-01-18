@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Barbería Alura</title>
+</head>
+
+<body>
+    <header>
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Barbería Alura</h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#experiencia">Experiencia de Clientes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="seccion-fondo">
+            <div class="container contenido">
+                <div class="contenedor-resaltado">
+                    <p>Ubicada en el corazón de la ciudad, la Barbería Alura trae para el mercado lo mejor para tu cabello y barba. Fundada en 2020, ya es destacada en la ciudad y conquista nuevos clientes diariamente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="seccion-fondo">
+            <div class="container contenido">
+                <div class="contenedor-resaltado">
+                    <p>Nuestra misión es proporcionar autoestima y calidad de vida a nuestros clientes.</p>
+                    <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios en la moda para ofrecer a nuestros clientes las últimas tendencias. El servicio tiene un estándar de excelencia y agilidad, garantizando calidad y satisfacción.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="seccion-fondo">
+            <div class="container contenido">
+                <div class="contenedor-resaltado">
+                    <h2>Experiencia de Clientes</h2>
+                    <div class="testimonio">
+                        <img src="./img/cliente1.jpg" alt="Cliente 1" class="cliente-icon">
+                        <div class="testimonio-texto">
+                            <h3>Cliente Satisfecho</h3>
+                            <p>¡La Barbería Alura superó mis expectativas! El ambiente acogedor y los profesionales expertos hicieron que mi visita fuera excepcional.</p>
+                        </div>
+                    </div>
+                    <div class="testimonio">
+                        <img src="./img/cliente2.jpg" alt="Cliente 2" class="cliente-icon">
+                        <div class="testimonio-texto">
+                            <h3>Otro Cliente Feliz</h3>
+                            <p>Desde que descubrí la Barbería Alura, no confío mi corte de pelo y barba a ningún otro lugar. ¡La calidad y el servicio son incomparables!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion-fondo">
+            <div class="container contenido">
+                <div class="contenedor-resaltado">
+                    <h2>Contacto</h2>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" defer></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
